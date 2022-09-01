@@ -1,0 +1,162 @@
+body {
+padding: 0px;
+margin: 0px;
+font-family:  'Roboto' , 'sans-serif';
+background-image: url(img/Background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.container {
+width: 1170px;
+margin: 0 auto;
+}
+header, footer {
+    background: rgba(57, 97, 239, 0.68);
+padding-top: 28px;
+padding-bottom: 30px;
+}
+
+
+
+header {
+background-color:#3961EFAD;
+padding-top: 28px;
+margin-bottom: 80px;
+    
+}
+
+
+.logo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+nav {
+display: flex;
+justify-content:space-around;
+align-items:center ;
+
+}
+
+.menu {
+display: flex;
+list-style: none;
+column-gap: 33px;
+}
+.logo a {
+color: #FFFFFF;
+text-decoration: none;
+font-weight: 800;
+font-size: 26px;
+font-family:  'Roboto' , 'sans-serif';
+padding-top: 12px;
+}
+.menu a {
+    color: #FFFFFF;
+text-decoration: none;
+font-weight: 600;
+ font-size: 24px;
+ font-family:  'Roboto' , 'sans-serif';
+}
+
+
+.menu li a:hover {
+border-bottom: 3px solid #FFFFFF;
+}
+
+
+.desc{
+font-weight: 800;
+font-size: 40px;
+color:#FFFFFF ;
+}
+
+.collage{
+height: 681px;
+position: relative;
+}
+.collage img:nth-child(1) {
+position: absolute ;
+bottom: 5%;
+border-radius: 5px;
+}
+.collage img:nth-child(2) {
+    position: absolute ;
+    left: 30%;
+    border-radius: 5px;
+    }.collage img:nth-child(3) {
+        position: absolute ;
+        left: 55%;
+        bottom: 0%;
+        border-radius: 5px;
+        }.collage img:nth-child(4) {
+            right: 0%;
+            border-radius: 5px;
+        }
+        h2 {
+            font-size: 55px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-top: 165px;
+            margin-bottom: 96px;
+        }
+        
+        
+        
+        
+        
+        
+        .an {
+display: flex;
+justify-content: space-around;
+align-content: center;
+        }
+.card {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.card p {
+color: #FFFFFF;
+font-size: 23px;
+text-align: center ;
+margin-top: 32px;
+
+}
+.gallery {
+text-align: center;
+}
+.contacts {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.panel {
+    width: 384px;
+    margin-bottom: 151px;
+    height: 153px;
+    background: rgba(57, 97, 239, 0.68);
+border-radius: 7px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.panel a {
+color: #FFFFFF;
+text-decoration: none;
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 10px;
+}
+
+
+
